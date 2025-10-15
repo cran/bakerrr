@@ -45,16 +45,16 @@ print.long_stat_calc <- function(x, ...) {
 ## ----data---------------------------------------------------------------------
 # Arguments for 10 parallel jobs
 args_list <- list(
-  list(rnorm(100), n_boot = 3000, sleep_time = 0.002),
-  list(rnorm(100), n_boot = 3000, sleep_time = 0.002),
-  list(rnorm(100), n_boot = 3000, sleep_time = 0.002),
-  list(rnorm(100), n_boot = 3000, sleep_time = 0.002),
-  list(rnorm(100), n_boot = 3000, sleep_time = 0.002),
-  list(rnorm(100), n_boot = 3000, sleep_time = 0.002),
-  list(rnorm(100), n_boot = 3000, sleep_time = 0.002),
-  list(rnorm(100), n_boot = 3000, sleep_time = 0.002),
-  list(rnorm(100), n_boot = 3000, sleep_time = 0.002),
-  list(rnorm(100), n_boot = 3000, sleep_time = 0.002)
+  list(x = rnorm(100), n_boot = 3000, sleep_time = 0.002),
+  list(x = rnorm(100), n_boot = 3000, sleep_time = 0.002),
+  list(x = rnorm(100), n_boot = 3000, sleep_time = 0.002),
+  list(x = rnorm(100), n_boot = 3000, sleep_time = 0.002),
+  list(x = rnorm(100), n_boot = 3000, sleep_time = 0.002),
+  list(x = rnorm(100), n_boot = 3000, sleep_time = 0.002),
+  list(x = rnorm(100), n_boot = 3000, sleep_time = 0.002),
+  list(x = rnorm(100), n_boot = 3000, sleep_time = 0.002),
+  list(x = rnorm(100), n_boot = 3000, sleep_time = 0.002),
+  list(x = rnorm(100), n_boot = 3000, sleep_time = 0.002)
 )
 
 ## ----mirai--------------------------------------------------------------------
